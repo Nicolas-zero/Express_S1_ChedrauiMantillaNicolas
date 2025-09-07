@@ -1,0 +1,29 @@
+{
+  "name": "campuslands-express",
+  "version": "1.0.0",
+  "description": "Conversión del proyecto Campuslands (Python) a una API REST con Express.js",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "lint": "echo \"(placeholder)\""
+  },
+  "keywords": [
+    "express",
+    "api",
+    "campuslands"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
